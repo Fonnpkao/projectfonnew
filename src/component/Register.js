@@ -34,10 +34,10 @@ function Register() {
 // ตรวจสอบความถูกต้องของ idmem โดยส่งคำขอไปยัง API
 // const isIdmemUnique = await checkIdmemAvailability(idmem);
 
-if (!isIdmemUnique) {
-  message.error('UserID ซ้ำ');
-  return;
-}
+// if (!isIdmemUnique) {
+//   message.error('UserID ซ้ำ');
+//   return;
+// }
 
     const data = {
       idmem,
